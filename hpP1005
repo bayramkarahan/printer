@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget https://raw.githubusercontent.com/bayramkarahan/printer/master/hpP1005.sh
+sudo chmod 777 ./hpP1005.sh
+sudo ./hpP1005.sh	
