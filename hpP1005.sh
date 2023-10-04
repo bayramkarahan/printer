@@ -8,8 +8,9 @@
 
 #sudo apt-get update
 sudo apt-get remove hplip cups-filters cups hplip-data system-config-printer-udev -y
-sudo apt-get install build-essential tix groff dc cups cups-filters system-config-printer system-config-printer-common -y
 sudo rm -rf /usr/share/hplip
+sudo apt-get install build-essential tix groff dc cups cups-filters system-config-printer hplip system-config-printer-common -y
+
 cd /tmp
 rm foo*
 git clone https://github.com/bayramkarahan/printer.git
