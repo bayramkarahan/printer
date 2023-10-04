@@ -12,7 +12,7 @@ sudo rm -rf /usr/share/hplip
 sudo apt-get install build-essential tix groff dc cups cups-filters system-config-printer hplip system-config-printer-common -y
 
 cd /tmp
-rm foo*
+rm print*
 git clone https://github.com/bayramkarahan/printer.git
 cd printer/
 make
